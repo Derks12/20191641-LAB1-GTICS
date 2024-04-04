@@ -2,6 +2,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        .contenedor{
+            position: relative;
+            display: inline-block;
+            text-align: left;
+        }
+
+        .centrado{
+            position: absolute;
+            top: 50%;
+            left: 4.5%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: xxx-large;
+            font-weight: bold;
+
+        }
+
+        .centrado2{
+            position: absolute;
+            top: 55%;
+            left: 13%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: large;
+
+        }
+        .centrado3{
+            position: absolute;
+            top: 60%;
+            left: 3%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
@@ -13,8 +52,14 @@
 <nav class="navbar bg-body-tertiary">
 </nav>
 
+<div class="contenedor">
+    <img src="Muyuna-lodge-Iquitos copia.jpg" height="1080" width="1920"/>
+    <div class="centrado">Iquitos</div>
+    <div class="centrado2">Descubra maravillas ocultas y destinos inspiradores en Iquitos</div>
+    <button type="button" class="centrado3 btn btn-light">Comprar</button>
 
-<img src="Muyuna-lodge-Iquitos copia.jpg" height="1080" width="1920"/>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
